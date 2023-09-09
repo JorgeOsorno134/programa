@@ -1,0 +1,52 @@
+body{
+    background-color: aquamarine;
+}
+header{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+    padding: 32px;
+    border-bottom: 4px solid #fdb347;
+}
+header a{
+    color: cornsilk;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+
+.gallery img{
+    width: 100%;
+    max-width: 325px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+section{
+    background-color: darkblue;
+    padding: 10px;
+    color: white;
+
+}
+
+input[type="submit"]{
+    background-color: crimson;
+}
+
+footer{
+    font-size: 2.4em;
+    font-weight: 700;
+}
